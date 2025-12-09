@@ -20,7 +20,7 @@ double obtenerTotal(int numeroDeCalificaciones)
 
     for (int i = 0; i < numeroDeCalificaciones; i++) {
         int calificacionActual;
-        cout << "Ingrese la calificación " << i << endl;
+        cout << "Ingrese la calificación " << i + 1 << endl;
         cin >> calificacionActual;
         total += calificacionActual;
     }
