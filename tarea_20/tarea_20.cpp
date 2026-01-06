@@ -9,13 +9,13 @@ int main() {
 
     int* punteroVolumen = &volumen;
 
-    std::cout << "Volumen inicial: " << volumen << std::endl;
+    std::cout<<"Volumen inicial: " <<volumen<<;
 
     subirVolumen(punteroVolumen);
-    std::cout << "Despues de subir volumen: " << volumen << std::endl;
+    std::cout<<"Despues de subir volumen: "<<volumen<<"\n";
 
     bajarVolumen(volumen);
-    std::cout << "Despues de bajar volumen: " << volumen << std::endl;
+    std::cout<<"Despues de bajar volumen: "<<volumen <<"\n";
 
     return 0;
 }
